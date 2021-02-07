@@ -3,18 +3,30 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family:sans-serif;
   text-align: center;
-  font-size: 48px;
+  font-size: 50px;
 }
 
 .picture-card {
+  object-fit:cover;
   width: 200px;
-  height: 200px;
-  margin-left: 10px;
-  margin-right: 10px;
+  height: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 20px;
   display: inline-block;
+}
+.picture-card1 {
+  object-fit:cover;
+  border-radius: 10%;
+  width: 200px;
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+
 }
 
 li {
@@ -33,15 +45,15 @@ li > a:hover {
 }
 
 h2 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: sans-serif, cursive;
   text-align: center;
 }
 
 .profile-image-round {
-  object-fit: cover;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  object-fit:contain;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
 }
 
 @keyframes animated_div {
@@ -143,12 +155,13 @@ h2 {
 #work {
   background: rgba(39, 111, 191, 0.1);
 }
-
+/*
 #work:hover {
   background: rgba(39, 111, 191, 1);
   color: white;
   transition: 0.6s;
 }
+*/
 
 .fun-pic {
   object-fit: cover;
@@ -160,12 +173,13 @@ h2 {
 #fun {
   background: rgba(255, 177, 0, 0.1);
 }
-
+/*
 #fun:hover {
   background: rgba(255, 177, 0, 1);
   color: white;
   transition: 0.6s;
 }
+*/
 
 .profile-image-round:hover {
   width: 210px;
