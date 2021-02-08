@@ -183,6 +183,7 @@ h2 {
 
 .profile-image-round:hover {
   width: 210px;
+  
   height: 210px;
   transition: 0.1s;
   animation: animated_div 5s 1;
