@@ -3,7 +3,7 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  font-family:sans-serif;
+  font-family:'Courier New', Courier, monospace;
   text-align: center;
   font-size: 50px;
 }
@@ -45,8 +45,9 @@ li > a:hover {
 }
 
 h2 {
-  font-family: sans-serif, cursive;
+  font-family: 'Times New Roman', Times, serif, cursive;
   text-align: center;
+   color: rgba(211, 0, 0, 0.609);
 }
 
 .profile-image-round {
@@ -153,7 +154,7 @@ h2 {
 }
 
 #work {
-  background: rgba(39, 111, 191, 0.1);
+  background: rgba(135, 162, 192, 0.1);
 }
 /*
 #work:hover {
@@ -183,7 +184,7 @@ h2 {
 
 .profile-image-round:hover {
   width: 210px;
-  
+
   height: 210px;
   transition: 0.1s;
   animation: animated_div 5s 1;
@@ -193,7 +194,7 @@ h2 {
   text-align: center;
   width: 60%;
   margin: 0 auto;
-  background: white;                         /* White background */
+  background: rgb(199, 168, 168);                         /* White background */
   padding: 30px;                             /* Internal space */
   border-radius: 4px;                        /* Small radius */
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
@@ -201,7 +202,11 @@ h2 {
   transition: 0.2s;
 }
 .boxes1{
-  background-color: #1ec7e6;
+  background-color: #6197a0;
+  margin-top: 200px;
+  box-shadow: 0 10px 30px rgba(66, 55, 55, 0.1);
+  transition: 0.2s;
+  margin-bottom: 10px;
 }
 
 ul {
