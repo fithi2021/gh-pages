@@ -1,15 +1,15 @@
 p {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
-  font-family:sans-serif;
+  font-family: sans-serif;
   text-align: center;
   font-size: 50px;
 }
 
 .picture-card {
-  object-fit:cover;
+  object-fit: cover;
   width: 200px;
   height: 300px;
   margin-left: 20px;
@@ -18,15 +18,14 @@ h1 {
   display: inline-block;
 }
 .picture-card1 {
-  object-fit:cover;
+  object-fit: cover;
   border-radius: 100%;
   width: 200px;
-  height: 100px;
+  height: 150px;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   display: inline-block;
-
 }
 
 li {
@@ -50,39 +49,38 @@ h2 {
 }
 
 .profile-image-round {
-  object-fit:contain;
+  object-fit: contain;
   border-radius: 100%;
   width: 300px;
   height: 300px;
 }
 
 @keyframes animated_div {
-0% {
+  0% {
     transform: rotate(0deg);
     left: 0px;
-}
-25% {
+  }
+  25% {
     transform: rotate(20deg);
     left: 0px;
-}
-50% {
+  }
+  50% {
     transform: rotate(0deg);
     left: 500px;
-}
-55% {
+  }
+  55% {
     transform: rotate(0deg);
     left: 500px;
-}
-70% {
+  }
+  70% {
     transform: rotate(0deg);
     left: 500px;
     background: #1ec7e6;
-}
-100% {
+  }
+  100% {
     transform: rotate(-360deg);
     left: 0px;
-}
-
+  }
 }
 
 #pointless-btn {
@@ -103,17 +101,16 @@ h2 {
   transition: 1s;
 }
 
-
 #secret:hover {
   color: black;
 }
 
 #pointless-btn:hover {
-  background: white
+  background: white;
 }
 
 #pointless-btn:focus {
-  outline-color: white
+  outline-color: white;
 }
 
 #btn-work {
@@ -192,10 +189,10 @@ h2 {
   text-align: center;
   width: 60%;
   margin: 0 auto;
-  background: white;                         /* White background */
-  padding: 30px;                             /* Internal space */
-  border-radius: 4px;                        /* Small radius */
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  background: white; /* White background */
+  padding: 30px; /* Internal space */
+  border-radius: 4px; /* Small radius */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 10px;
   transition: 0.2s;
 }
@@ -206,5 +203,5 @@ ul {
 }
 
 body {
-  background: rgba(234, 234, 234,0.02);
+  background: rgba(234, 234, 234, 0.02);
 }
